@@ -80,15 +80,23 @@ summary["total_media_activity"] = (
 
 summary["vote_share"] = summary["votes"] / summary["votes"].sum()
 
+summary["supportive_media_spend"] = (
+    summary["direct_media_spend"]
+    + summary["independent_support_spend"]
+)
+
+summary["opposition_media_spend"] = (
+    summary["independent_oppose_spend"]
+)
+
 summary.to_csv(OUTPUT, index=False)
 
 print(
     summary[
         [
             "canonical_name",
-            "direct_media_spend",
-            "independent_support_spend",
-            "independent_oppose_spend",
+            "supportive_media_spend",
+            "opposition_media_spend",
             "total_media_activity",
             "votes",
             "vote_share",

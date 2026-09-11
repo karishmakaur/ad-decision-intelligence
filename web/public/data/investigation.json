@@ -1,0 +1,21 @@
+{
+  "question": "How did Mamdani's paid-media environment compare with his electoral performance and public attention?",
+  "finding": "Mamdani's paid-media environment and electoral performance show a gap in terms of spending and attention, with a significant difference in the percentage of recorded candidate vote and analyzed supportive paid-media spending.",
+  "evidence": [
+    "Mamdani received 50.9% of the recorded candidate vote (1,114,184 votes).",
+    "He accounted for 28.1% of analyzed supportive paid-media spending.",
+    "He was the target of 86.6% of analyzed opposition paid-media spending.",
+    "In the week of 2025-06-23, his analyzed media-activity share was 0.2%, while his Wikipedia attention share was 79.0%."
+  ],
+  "interpretation": "The observed pattern suggests that there is a divergence between the amount of paid-media spending and the recorded candidate vote, with Mamdani receiving a higher percentage of votes than his paid-media spending share.",
+  "counter_evidence": [
+    "Paid-media data does not capture all campaign activity or earned media.",
+    "Wikipedia pageviews measure attention, not voter sentiment."
+  ],
+  "limitations": [
+    "Wikipedia pageviews measure attention, not voter sentiment.",
+    "Observed relationships do not establish causation.",
+    "Paid-media data does not capture all campaign activity or earned media."
+  ],
+  "confidence": "low"
+}

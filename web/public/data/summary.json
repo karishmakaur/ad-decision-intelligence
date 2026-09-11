@@ -1,0 +1,68 @@
+{
+  "featured_insight": {
+    "candidate": "Zohran Kwame Mamdani",
+    "supportive_media_share": 0.2815236212550368,
+    "opposition_media_share": 0.8662750166340386,
+    "vote_share": 0.5092253283595323
+  },
+  "total_media_activity": 64012982.91,
+  "total_votes": 2187998,
+  "candidates": [
+    {
+      "canonical_name": "Zohran Kwame Mamdani",
+      "supportive_media_spend": 12410432.96,
+      "opposition_media_spend": 17264762.69,
+      "total_media_activity": 29675195.65,
+      "votes": 1114184,
+      "vote_share": 0.5092253283595323
+    },
+    {
+      "canonical_name": "Andrew M. Cuomo",
+      "supportive_media_spend": 26753775.47,
+      "opposition_media_spend": 1324965.39,
+      "total_media_activity": 28078740.86,
+      "votes": 906614,
+      "vote_share": 0.4143577827767667
+    },
+    {
+      "canonical_name": "Curtis A. Sliwa",
+      "supportive_media_spend": 4021621.59,
+      "opposition_media_spend": 1340158.34,
+      "total_media_activity": 5361779.93,
+      "votes": 153749,
+      "vote_share": 0.0702692598439303
+    },
+    {
+      "canonical_name": "Eric L. Adams",
+      "supportive_media_spend": 285410.25,
+      "opposition_media_spend": 0.0,
+      "total_media_activity": 285410.25,
+      "votes": 6897,
+      "vote_share": 0.0031521966656276
+    },
+    {
+      "canonical_name": "Irene Estrada",
+      "supportive_media_spend": 0.0,
+      "opposition_media_spend": 0.0,
+      "total_media_activity": 0.0,
+      "votes": 2856,
+      "vote_share": 0.0013053028384852
+    },
+    {
+      "canonical_name": "Jim Walden",
+      "supportive_media_spend": 602414.0,
+      "opposition_media_spend": 0.0,
+      "total_media_activity": 602414.0,
+      "votes": 2319,
+      "vote_share": 0.0010598729980557
+    },
+    {
+      "canonical_name": "Joseph Hernandez",
+      "supportive_media_spend": 9442.22,
+      "opposition_media_spend": 0.0,
+      "total_media_activity": 9442.22,
+      "votes": 1379,
+      "vote_share": 0.0006302565176019
+    }
+  ]
+}
