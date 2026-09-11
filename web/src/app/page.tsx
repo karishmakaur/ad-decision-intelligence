@@ -50,16 +50,21 @@ const number = (value: number) =>
 export default function Home() {
   const [investigation, setInvestigation] = useState<Investigation | null>(null);
   const [data, setData] = useState<Summary | null>(null);
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
   useEffect(() => {
     Promise.all([
-      fetch("/data/summary.json").then((response) => response.json()),
-      fetch("/data/investigation.json").then((response) => response.json()),
+      fetch(`${basePath}/data/summary.json`).then(
+        (response) => response.json() as Promise<Summary>
+      ),
+      fetch(`${basePath}/data/investigation.json`).then(
+        (response) => response.json() as Promise<Investigation>
+      ),
     ]).then(([summary, investigation]) => {
       setData(summary);
       setInvestigation(investigation);
     });
-  }, []);
+  }, [basePath]);
 
   if (!data) {
     return <main className={styles.main}>Loading...</main>;
@@ -126,7 +131,7 @@ export default function Home() {
 
         <img
           className={styles.chart}
-          src="/images/mamdani-media-attention.png"
+          src={`${basePath}/images/mamdani-media-attention.png`}
           alt="Mamdani paid media activity share compared with Wikipedia attention share"
         />
       </section>
